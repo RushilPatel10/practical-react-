@@ -10,6 +10,7 @@ import Blog from './container/Blog';
 import Contact from './container/Contact';
 import Cart from './container/Cart';
 
+
 function App() {
   return (
     <>
@@ -23,10 +24,6 @@ function App() {
           <Route path='/blog' element={<Blog />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/cart' element={<Cart />} />
-
-
-
-
         </Routes>
         <Footer />
       </BrowserRouter>
